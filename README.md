@@ -22,6 +22,8 @@ User → HTTPS → Route 53 → CloudFront (ACM) → ALB → EC2 (private)
 
 ```bash
 terraform init
+terraform fmt
+terraform validate
 terraform plan 
 terraform apply 
 ```
